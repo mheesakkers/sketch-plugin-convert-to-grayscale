@@ -6,7 +6,7 @@ A simple Sketch plugin for turning your vector shapes into grayscale colors.
 Ideal for getting rid of those colorful logo walls or for wireframes.
 Works with multiple fills, borders & gradients!
 
-[ Add screengrab ]
+<img src="https://github.com/mheesakkers/sketch-plugin-convert-to-grayscale/blob/master/screengrab.gif?raw=true" alt="img" style="max-width:100%;">
 ---
 
 ## To do

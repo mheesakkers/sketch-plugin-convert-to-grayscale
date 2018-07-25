@@ -1,0 +1,22 @@
+
+{
+  "name" : "Convert To Grayscale",
+  "identifier" : "com.mheesakkers.sketchplugins.converttograyscale",
+  "version" : "1.0.0",
+  "description" : "Convert selected shapes to grayscale (fill, border & gradients)",
+  "authorEmail" : "misha.heesakkers@gmail.com",
+  "author" : "Misha Heesakkers",
+  "appcast" : "https://raw.githubusercontent.com/mheesakkers/convert-to-grayscale/master/appcast.xml",
+  "icon": "icon.png",
+  "commands" : [
+    {
+      "script" : "script.js",
+      "handler" : "onRun",
+      "shortcut" : "cmd option ctrl g",
+      "name" : "Convert to Grayscale",
+      "identifier" : "convert-to-grayscale",
+      "description" : "Convert selected shapes to grayscale (fill, border & gradients)",
+      "icon" : "icon.png"
+    }
+  ]
+}

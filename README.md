@@ -1,4 +1,4 @@
-<img height="128" width="128" src="https://github.com/mheesakkers/sketch-plugin-convert-to-grayscale/blob/master/Image%20Replaste.sketchplugin/Contents/Resources/icon-large.png">
+<img height="128" width="128" src="https://github.com/mheesakkers/sketch-plugin-convert-to-grayscale/blob/master/Convert%20To%20Grayscale.sketchplugin/Contents/Resources/icon.png">
 
 # Sketch Plugin: Convert to Grayscale
 

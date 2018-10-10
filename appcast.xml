@@ -6,6 +6,17 @@
     <description>Convert selected shapes to grayscale (fill, border & gradients)</description>
     <language>en</language>
     <item>
+      <title>Version 1.1</title>
+      <description>
+        <![CDATA[
+            <ul>
+              <li>Made compatible with Sketch 52.1</li>
+            </ul>
+          ]]>
+      </description>
+      <enclosure url="https://github.com/mheesakkers/sketch-plugin-convert-to-grayscale/archive/master.zip" sparkle:version="1.1"/>
+    </item>
+    <item>
       <title>Version 1.0</title>
       <description>
         <![CDATA[

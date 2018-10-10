@@ -1,16 +1,16 @@
 function onRun(context) {
-	var sketch = require('sketch/dom');
-	var UI = require('sketch/ui');
+	var sketch = require('sketch')
+	var UI = require('sketch/ui')
 	var doc = sketch.getSelectedDocument();
 	var selection = doc.selectedLayers;
-	 
+
 	 if (!selection.isEmpty) {
 	 	var shapeLayers = [];
 	 	var imageLayers = [];
 	 	var textLayers = [];
 
 	 	selection.forEach( function iterate(layer) {
-	 		layer.type === 'Shape' && shapeLayers.push(layer);
+	 		layer.type === 'ShapePath' && shapeLayers.push(layer);
 	 		layer.type === 'Image' && imageLayers.push(layer);
 	 		layer.type === 'Text'  && textLayers.push(layer);
 	 		(layer.layers || []).forEach(iterate);
@@ -19,6 +19,7 @@ function onRun(context) {
 	 	// Grayscale "Shape" layers
 		shapeLayers.forEach(layer => {
 
+			log(layer.style);
 	 		// *** ALL THE FILL / GRADIENT COLORS  *** //
 	 		if (layer.style.fills) {
 	 			layer.style.fills.forEach(fill => {

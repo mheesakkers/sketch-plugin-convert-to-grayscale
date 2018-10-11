@@ -10,6 +10,7 @@ function onRun(context) {
 	 	var textLayers = [];
 
 	 	selection.forEach( function iterate(layer) {
+	 		layer.type === 'Shape' && shapeLayers.push(layer);
 	 		layer.type === 'ShapePath' && shapeLayers.push(layer);
 	 		layer.type === 'Image' && imageLayers.push(layer);
 	 		layer.type === 'Text'  && textLayers.push(layer);

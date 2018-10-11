@@ -2,7 +2,7 @@
 {
   "name" : "Convert To Grayscale",
   "identifier" : "com.mheesakkers.sketchplugins.converttograyscale",
-  "version" : "1.1",
+  "version" : "1.2",
   "description" : "Convert selected shapes to grayscale (fill, border & gradients)",
   "authorEmail" : "misha.heesakkers@gmail.com",
   "author" : "Misha Heesakkers",

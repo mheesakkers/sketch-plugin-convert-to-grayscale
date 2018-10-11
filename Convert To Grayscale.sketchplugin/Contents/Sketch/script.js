@@ -19,8 +19,6 @@ function onRun(context) {
 
 	 	// Grayscale "Shape" layers
 		shapeLayers.forEach(layer => {
-
-			log(layer.style);
 	 		// *** ALL THE FILL / GRADIENT COLORS  *** //
 	 		if (layer.style.fills) {
 	 			layer.style.fills.forEach(fill => {
